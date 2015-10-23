@@ -136,11 +136,11 @@ public class PlayerController : MonoBehaviour {
     { 
     if(this._isFlippingRight)
     {
-        this._transform.localScale = new Vector2(1f,1f);
+        this._transform.localScale = new Vector3(1f,1f,1f);
     }
     else 
     {
-        this._transform.localScale = new Vector2(-1f, 1f);
+        this._transform.localScale = new Vector3(-1f, 1f, 1f);
     }
     }
 }
